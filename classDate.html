@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  class Date {
+    day;
+    month;
+    year;
+    constructor(day,month,year) {
+      this.day = day;
+      this.month = month;
+      this.year = year
+    }
+    getDay(){
+      return this.day
+    }
+    getMonth(){
+      return this.month
+    }
+    getYear(){
+      return this.year
+    }
+  }
+  let newDate = new Date (2,2,2007);
+  console.log(newDate.day)
+  console.log(newDate.month)
+  console.log(newDate.year)
+  console.log(newDate.getDay())
+  console.log(newDate.getMonth())
+  console.log(newDate.getYear())
+</script>
